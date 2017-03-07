@@ -9,5 +9,5 @@ def solution(N):
                    break
             else:
                 print(num)
-print(solution(0))
+print(solution(100))
                   
