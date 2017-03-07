@@ -20,7 +20,12 @@ class Prime_Testcase(unittest.Test_Solution):
 		self.assertTrue(Solution([1,6,7]),"error is returned")
 
 	def test_if_it_0(self):
-		self.assertTrue(Solution([0),"none")
+		self.assertTrue(Solution(0),"none")
+		
+	def test_if_dict(self):
+		self.assertTrue(Solution({1,2,3}),"error is returned")
+
+
 	
 
 
