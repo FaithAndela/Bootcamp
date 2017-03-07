@@ -9,5 +9,5 @@ def solution(N):
                    break
             else:
                 print(num)
-print(solution([1,2,3]))
+print(solution(0))
                   
